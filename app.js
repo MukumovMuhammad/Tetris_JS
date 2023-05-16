@@ -122,7 +122,7 @@ function freeze(){
     }else{
       draw();
       alert("Oh no! You lose :(   Don't worry try again");
-      for(let i = 0; i < 201; i++){
+      for(let i = 0; i < 200; i++){
         squares[i].classList.remove('taken');
         squares[i].classList.remove('tetromino');
       }
